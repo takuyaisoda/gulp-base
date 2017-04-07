@@ -3,16 +3,16 @@ gulp-base使用方法
 
 ## 各ティレクトリの説明
 ```
-_src --- _js		　　　　// minifyするjsを格納。拡張子.js / minifyしたくないものは_*.js
-   　　　　　　|- _sass	　　　　　　　　　　// コンパイルするscssを格納。拡張性.scss / 直接出力しないものは_*.scss
-　　　　　　　　　　　　|- _images		// 画像格納。このフォルダに入れた画像はdistフォルダに圧縮されて格納される
-   　　　　　　|- _ejs	　　　　　　　　　　// htmlファイル格納場所。拡張子.ejs, html出力したくないものは_*.ejs
-     　　　　　　　　　　　|- _include　　　　　　　　　// _*.ejsファイル格納場所
+_src --- _js            // minifyするjsを格納。拡張子.js / minifyしたくないものは_*.js
+   　　　　　　|- _sass          // コンパイルするscssを格納。拡張性.scss / 直接出力しないものは_*.scss
+　　　　　　　　　　　　|- _images        // 画像格納。このフォルダに入れた画像はdistフォルダに圧縮されて格納される
+   　　　　　　|- _ejs           // htmlファイル格納場所。拡張子.ejs, html出力したくないものは_*.ejs
+     　　　　　　　　　　　|- _include   // _*.ejsファイル格納場所
 
-dist --- apps		　　　　// 中のthemesにそれぞれコンパイルcss、minifyされたjsが格納される。
-   |- images		　　　　// 圧縮された画像の格納先
+dist --- apps           // 中のthemesにそれぞれコンパイルcss、minifyされたjsが格納される。
+   |- images            // 圧縮された画像の格納先
    |- docs
-   |- css		　　　　// cssスタイルガイドラインファイル
+   |- css               // cssスタイルガイドラインファイル
 ```
 
 ## 開発環境準備
