@@ -2,7 +2,6 @@ gulp-base使用方法
 ====
 
 ## 各ティレクトリの説明
-
 ```
 _src --- _js		// minifyするjsを格納。拡張子.js / minifyしたくないものは_*.js
    |- _sass		// コンパイルするscssを格納。拡張性.scss / 直接出力しないものは_*.scss
@@ -27,8 +26,8 @@ dist --- apps		// 中のthemesにそれぞれコンパイルcss、minifyされ�
 
 
 ## gulp コマンド
-
 1. [gulp]　　
+
 gulpの実行。scss,js,ejs,fileのタスク処理
 
 2. [gulp clean]　　
