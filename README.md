@@ -18,16 +18,20 @@ dist --- apps		// 中のthemesにそれぞれコンパイルcss、minifyされ�
 
 ## 開発環境準備
 1. [npm i gulp -D]　　
+
 ローカルフォルダにgulpをインストール
 
 2. [npm i]　　
+
 パッケージインストール
 
 
 ## gulp コマンド
+
 1. [gulp]　　
 gulpの実行。scss,js,ejs,fileのタスク処理
 
 2. [gulp clean]　　
+
 _src/内で作成されたhtml,image,iconは、フォルダやファイルの削除・リネームをしても、distフォルダからは削除されないため、
 htmlファイルの増減があった場合はgulp clean後にgulpを実行し、distフォルダを再生成する。 
